@@ -33,8 +33,16 @@ func main() {
 	m := map[string]string{
 		"dog": "bark",
 	}
+<<<<<<< HEAD
 	changeMap(m)
 	fmt.Println(m)
+=======
+	// fmt.Printf("%+v", jim)
+	//jimPointer := &jim
+
+	jim.updateName("Jimmy The Pos")
+	jim.print()
+>>>>>>> 17110f15ead928a60b783ae88d8cf1b4286f1ab5
 }
 
 func changeMap(m map[string]string) {
